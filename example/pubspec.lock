@@ -67,10 +67,12 @@ packages:
   firebase_messaging:
     dependency: transitive
     description:
-      name: firebase_messaging
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "6.0.9"
+      path: "."
+      ref: HEAD
+      resolved-ref: a9992d1fdfbf42e7690c57841f16a5b4c3f76e86
+      url: "https://github.com/ZatacaSystems/firebase_messaging.git"
+    source: git
+    version: "6.0.14"
   flutter:
     dependency: "direct main"
     description: flutter

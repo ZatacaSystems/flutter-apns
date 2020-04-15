@@ -9,7 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  firebase_messaging: ^6.0.9
+  firebase_messaging: #^6.0.9
+    git: https://github.com/ZatacaSystems/firebase_messaging.git
 
 dev_dependencies:
   flutter_test:
@@ -19,4 +20,3 @@ flutter:
   plugin:
     androidPackage: com.mwaysolutions.flutter.apns
     pluginClass: FlutterApnsPlugin
-
